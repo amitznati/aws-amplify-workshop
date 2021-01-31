@@ -41,3 +41,4 @@ amplifytools.xcconfig
 amplify/mock-data
 .graphqlconfig.yml
 src/graphql/
+yarn.lock

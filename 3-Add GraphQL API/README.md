@@ -167,3 +167,4 @@ Process to deploy the API to Amazon cloud will start, in the end you should see:
 GraphQL endpoint: https://xxxxxxxxxxxxxxxxxx.appsync-api.us-east-1.amazonaws.com/graphql
 GraphQL API KEY: xxx-xxxxxxxxxxxxx
 ````
+We can view the API data, queries, configuration etc. in Amazon [AppSync](https://console.aws.amazon.com/appsync/home?region=us-east-1#/apis)

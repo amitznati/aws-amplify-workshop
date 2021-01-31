@@ -48,9 +48,7 @@ function CreatePost() {
   }
   const {title, body} = newPost;
   return (
-    <form
-      onSubmit={onSubmit}
-    >
+    <form onSubmit={onSubmit}>
       <div>
         <label>Title</label>
         <input type="text" name="title" required value={title} onChange={onValueChange} />
