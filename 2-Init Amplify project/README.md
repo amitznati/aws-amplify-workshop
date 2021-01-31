@@ -83,3 +83,29 @@ export default awsmobile;
 ````
 _This file will update each feature will add to the project_
 
+#### Add amplify to code
+
+Install aws-amplify library
+````
+npm i aws-amplify
+````
+Import aws-exports configuration and init Amplify
+
+src/index.js
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+// Amplify
+import Amplify from 'aws-amplify';
+import config from './aws-exports';
+
+Amplify.configure(config);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+```
