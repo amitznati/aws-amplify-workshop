@@ -1,0 +1,14 @@
+type Post
+@model
+@auth(rules: [
+  {allow: public, operations: [read]},
+  {allow: owner, ownerField: "username"},
+])
+@key(name: "postByUsername", fields: ["username"], queryField: "postByUsername")
+{
+  id: ID!
+  title: String!
+  body: String
+  username: String
+  postImage: String
+}
