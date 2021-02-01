@@ -57,7 +57,7 @@ function CreatePost() {
         .then(storageRes => {
           API.graphql({
             query: updatePost,
-            variables: {input: {id: postId, postImage: `https://d31q1uw73anovc.cloudfront.net/${storageRes.key}`}},
+            variables: {input: {id: postId, postImage: `https://d3lvf8ga56g8b1.cloudfront.net/${storageRes.key}`}},
             authMode: 'AMAZON_COGNITO_USER_POOLS'
           }).then(() => {
             setNewPost({title: '', body: ''});

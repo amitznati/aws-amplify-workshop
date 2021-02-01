@@ -16,7 +16,7 @@
             {
               "authenticationType": "AMAZON_COGNITO_USER_POOLS",
               "userPoolConfig": {
-                "userPoolId": "authawsamplifyworkshop4cdca864"
+                "userPoolId": "authawsamplifyworkshop6b5c955d"
               }
             }
           ]
@@ -25,7 +25,7 @@
     }
   },
   "auth": {
-    "awsamplifyworkshop4cdca864": {
+    "awsamplifyworkshop6b5c955d": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
