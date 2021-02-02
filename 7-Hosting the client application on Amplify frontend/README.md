@@ -1,6 +1,8 @@
 # 7. Hosting the client application on Amplify frontend
 
-Deployment of the frontend application will be done in Amplify console
+_AWS Amplify offers a fully managed service for deploying and hosting static web applications, with built-in CI/CD workflows that accelerate your application release cycle. Simply connect your application's code repository in the Amplify console, and changes to your front end and backend are deployed in a single workflow on every code commit._
+
+Deployment of the frontend application will be done via Amplify console
 
 * #### Go Amplify console and select your application
 ![amplify-console](amplify-console.png)

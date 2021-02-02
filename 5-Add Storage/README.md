@@ -1,5 +1,8 @@
 # 5. Add Storage
 
+### Storage with Amplify
+AWS Amplify Storage module provides a simple mechanism for managing user content for your app in public, protected or private storage buckets. The Storage category comes with built-in support for Amazon S3.
+
 ````
 amplify add storage
 ````

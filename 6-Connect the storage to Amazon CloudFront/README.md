@@ -1,11 +1,13 @@
 # 6. Connect the storage to Amazon CloudFront
 
-few words on CloudFront, fast distribution, short url...
+As we notice in the previous step, the image loading very slow, and it's not so intuitive to use the Object key of the file.
+
+By connecting the S3 Bucket to Amazon CloudFront we'll get fast distribution for our files and with simple URL link 
 
 [resource](https://github.com/aws-amplify/amplify-cli/issues/1910)
 
 #### Create cloudfront distribution
-https://console.aws.amazon.com/cloudfront/home?region=eu-west-2#create-distribution
+https://console.aws.amazon.com/cloudfront/home?region=us-east-1#create-distribution
 
 Select a delivery method for your content > Web > Get started
 * Origin Domain Name: my-image-storage...
