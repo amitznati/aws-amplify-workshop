@@ -30,10 +30,10 @@ we'll host our client application by connect is to the GitHub project.
 
 
 ## Steps
-1. [Start](https://github.com/amitznati/aws-amplify-workshop/tree/master/1-Start#1-start)
-2. [Init Amplify project](https://github.com/amitznati/aws-amplify-workshop/tree/master/2-Init%20Amplify%20project#2-init-amplify-project)
-3. [Add GraphQL API](https://github.com/amitznati/aws-amplify-workshop/tree/master/3-Add%20GraphQL%20API#3-add-graphql-api)
-4. [Add Authentication](https://github.com/amitznati/aws-amplify-workshop/tree/master/4-Add%20Authentication#4-add-authentication)
-5. [Add Storage](https://github.com/amitznati/aws-amplify-workshop/tree/master/5-Add%20Storage#5-add-storage)
-6. [Connect the storage to Amazon CloudFront](https://github.com/amitznati/aws-amplify-workshop/tree/master/6-Connect%20the%20storage%20to%20Amazon%20CloudFront#6-connect-the-storage-to-amazon-cloudfront)
-7. [Hosting the client application on Amplify frontend](https://github.com/amitznati/aws-amplify-workshop/tree/master/7-Hosting%20the%20client%20application%20on%20Amplify%20frontend#7-hosting-the-client-application-on-amplify-frontend)
+1. [Start](/aws-amplify-workshop/tree/master/1-Start)
+2. Init Amplify project
+3. Add GraphQL API
+4. Add Authentication
+5. Add Storage
+6. Connect the storage to Amazon CloudFront
+7. Hosting the client application on Amplify frontend
