@@ -30,7 +30,7 @@ we'll host our client application by connect is to the GitHub project.
 
 
 ## Steps
-1. [Start](aws-amplify-workshop/tree/master/1-Start)
+1. [Start](/aws-amplify-workshop/tree/master/1-Start)
 2. Init Amplify project
 3. Add GraphQL API
 4. Add Authentication
