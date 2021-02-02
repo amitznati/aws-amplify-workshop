@@ -1,4 +1,4 @@
-# 7. Hosting the client application with Amplify frontend
+# 7. Hosting the client application on Amplify frontend
 
 Deployment of the frontend application will be done in Amplify console
 
