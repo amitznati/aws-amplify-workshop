@@ -4,7 +4,7 @@
 amplify add api
 ````
 * Select GraphQL for the API type
-* Select _API key_ for the authentication type (we'll add authentication in the next steps)
+* Select _API key_ for the authentication type (we'll add additional authentication type in the next steps)
 ````
 λ amplify add api
 ? Please select from one of the below mentioned services: GraphQL

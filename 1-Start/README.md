@@ -24,7 +24,7 @@ _delete unused files_
 
 Create PostsList widget
 ```javascript
-export default function PostsList() {
+function PostsList() {
   const data = [
     {id: 1, title: 'dummy post 1', body: 'dummy body 1'},
     {id: 2, title: 'dummy post 2', body: 'dummy body 2'},

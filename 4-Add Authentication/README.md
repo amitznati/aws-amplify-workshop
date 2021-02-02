@@ -75,7 +75,7 @@ Now when running the application we should see this Amplify sign in form instead
 
 #### Users can now sign up and sign in to the application
 
-### Connect the user to the post and restrict access for others
+### Connect the user to the post and restrict access for guests
 
 Update the API authentication settings
 ````

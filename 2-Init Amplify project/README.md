@@ -81,7 +81,7 @@ const awsmobile = {
 
 export default awsmobile;
 ````
-_This file will update each feature will add to the project_
+_This file will update each feature we will add to the project_
 
 #### Add amplify to code
 
