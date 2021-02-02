@@ -154,3 +154,5 @@ function PostsList() {
   );
 }
 ```
+
+## Next: [6. Connect the storage to Amazon CloudFront](https://github.com/amitznati/aws-amplify-workshop/tree/master/6-Connect%20the%20storage%20to%20Amazon%20CloudFront#6-connect-the-storage-to-amazon-cloudfront)

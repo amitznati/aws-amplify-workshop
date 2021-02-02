@@ -86,3 +86,5 @@ export default function App() {
   );
 }
 ```
+
+## Next: [2. Init Amplify project](https://github.com/amitznati/aws-amplify-workshop/tree/master/2-Init%20Amplify%20project#2-init-amplify-project)

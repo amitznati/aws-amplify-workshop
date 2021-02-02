@@ -170,3 +170,5 @@ This will overwrite your current graphql queries, mutations and subscriptions Ye
 GraphQL endpoint: https://xxxxxxxxxxxxxxxxxxxx.appsync-api.us-east-1.amazonaws.com/graphql
 GraphQL API KEY: xxx-xxxxxxxxxxxxxxxxxxxxxxxx
 ````
+
+## Next: [5. Add Storage](https://github.com/amitznati/aws-amplify-workshop/tree/master/5-Add%20Storage#5-add-storage)

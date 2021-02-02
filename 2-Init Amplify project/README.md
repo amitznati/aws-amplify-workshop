@@ -109,3 +109,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+## Next: [3. Add GraphQL API](https://github.com/amitznati/aws-amplify-workshop/tree/master/3-Add%20GraphQL%20API#3-add-graphql-api)

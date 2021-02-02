@@ -168,3 +168,5 @@ GraphQL endpoint: https://xxxxxxxxxxxxxxxxxx.appsync-api.us-east-1.amazonaws.com
 GraphQL API KEY: xxx-xxxxxxxxxxxxx
 ````
 We can view the API data, queries, configuration etc. in Amazon [AppSync](https://console.aws.amazon.com/appsync/home?region=us-east-1#/apis)
+
+## Next: [4. Add Authentication](https://github.com/amitznati/aws-amplify-workshop/tree/master/4-Add%20Authentication#4-add-authentication)

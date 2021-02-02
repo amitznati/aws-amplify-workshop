@@ -65,3 +65,5 @@ function PostsList() {
           }
         ...
 ```
+
+## Next: [7. Hosting the client application on Amplify frontend](https://github.com/amitznati/aws-amplify-workshop/tree/master/7-Hosting%20the%20client%20application%20on%20Amplify%20frontend#7-hosting-the-client-application-on-amplify-frontend)
