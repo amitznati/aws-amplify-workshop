@@ -7,12 +7,11 @@ those architectures often offer: Authentication,Storage, REST/GraphQL API, DB, C
 i.e.
 mongoDB Realm, Google Firebase, Amazon Amplify:
 
-
 <div style="text-align: center">
 <img src="./full-stack-offers.png" alt="full-stack" width="70%" />
 </div>
 
-In this workshop there are steps to configure full stack infrastructure on Amazon cloud using [Amazon Amplify]()
+In this workshop there are steps to configure full stack infrastructure on Amazon cloud using [Amazon Amplify](https://aws.amazon.com/amplify/)
 
 by following the steps you'll be able to configure:
 
