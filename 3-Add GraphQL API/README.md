@@ -6,32 +6,8 @@ amplify add api
 ````
 * Select GraphQL for the API type
 * Select _API key_ for the authentication type (we'll add additional authentication type in the next steps)
-````
-λ amplify add api
-? Please select from one of the below mentioned services: GraphQL
-? Provide API name: awsamplifyworkshop
-? Choose the default authorization type for the API API key
-? Enter a description for the API key: public
-? After how many days from now the API key should expire (1-365): 365
-? Do you want to configure advanced settings for the GraphQL API No, I am done.
-? Do you have an annotated GraphQL schema? No
-? Choose a schema template: Single object with fields (e.g., “Todo” with ID, name, description)
 
-The following types do not have '@auth' enabled. Consider using @auth with @model
-         - Todo
-Learn more about @auth here: https://docs.amplify.aws/cli/graphql-transformer/auth
-
-
-GraphQL schema compiled successfully.
-
-Edit your schema at C:\Users\amitz\Documents\GitHub\aws-amplify-workshop\amplify\backend\api\awsamplifyworkshop\schema.graphql or place .graphql files in a directory at C:\Users\amitz\Documents\GitHub\aws-amplify-workshop\amplify\backend\api\awsamplifyworkshop\schema
-? Do you want to edit the schema now? No
-Successfully added resource awsamplifyworkshop locally
-
-Some next steps:
-"amplify push" will build all your local backend resources and provision it in the cloud
-"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
-````
+![amplify-api-add](amplify-api-add.png)
 
 Once the API created we can now edit the data schema, 
 go to: amplify/backend/api/awsamplifyworkshop/schema.graphql
@@ -118,20 +94,8 @@ We can test the API before deploy it to cloud, run:
 ````
 amplify mock
 ````
-````
-λ amplify mock
 
-GraphQL schema compiled successfully.
-
-Edit your schema at C:\Users\amitz\Documents\GitHub\aws-amplify-workshop\amplify\backend\api\awsamplifyworkshop\schema.graphql or place .graphql files in a directory at C:\Users\amitz\Documents\GitHub\aws-amplify-workshop\amplify\backend\api\awsamplifyworkshop\schema
-Running GraphQL codegen
-? Choose the code generation language target javascript
-? Enter the file name pattern of graphql queries, mutations and subscriptions src\graphql\**\*.js
-? Do you want to generate/update all possible GraphQL operations - queries, mutations and subscriptions Yes
-? Enter maximum statement depth [increase from default if your schema is deeply nested] 2
-√ Generated GraphQL operations successfully and saved at src\graphql
-AppSync Mock endpoint is running at http://xxx.xxx.xxx.x:20002
-````
+![amplify-mock](api-mock.png)
 Open another terminal and run
 ```
 npm start

@@ -7,68 +7,12 @@ _Amplify supports popular web frameworks including JavaScript, React, Angular, V
 amplify init
 ````
 Select configuration
-````
-λ amplify init
-Note: It is recommended to run this command from the root of your app directory
-? Enter a name for the project awsamplifyworkshop
-? Enter a name for the environment dev
-? Choose your default editor: None
-? Choose the type of app that you're building javascript
-Please tell us about your project
-? What javascript framework are you using react
-? Source Directory Path:  src
-? Distribution Directory Path: build
-? Build Command:  npm.cmd run-script build
-? Start Command: npm.cmd run-script start
-Using default provider  awscloudformation
-AWS access credentials can not be found.
-? Setup new user No
 
-For more information on AWS Profiles, see:
-https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
+![amplify-init](amplify-init.png)
 
-? accessKeyId:  ********************
-? secretAccessKey:  ****************************************
-? region:  us-east-1
-````
 Create amplify project process will now start in Amazon
-````
-Adding backend environment dev to AWS Amplify Console app: d1clew55vxfoap
-| Initializing project in the cloud...
 
-CREATE_IN_PROGRESS AuthRole                              AWS::IAM::Role             Sun Jan 31 2021 15:24:02 GMT+0200 (Israel Standard Time)
-CREATE_IN_PROGRESS UnauthRole                            AWS::IAM::Role             Sun Jan 31 2021 15:24:01 GMT+0200 (Israel Standard Time) Resource creation Initiated
-CREATE_IN_PROGRESS DeploymentBucket                      AWS::S3::Bucket            Sun Jan 31 2021 15:24:01 GMT+0200 (Israel Standard Time)
-CREATE_IN_PROGRESS UnauthRole                            AWS::IAM::Role             Sun Jan 31 2021 15:24:01 GMT+0200 (Israel Standard Time)
-CREATE_IN_PROGRESS amplify-awsamplifyworkshop-dev-152352 AWS::CloudFormation::Stack Sun Jan 31 2021 15:23:56 GMT+0200 (Israel Standard Time) User Initiated
-/ Initializing project in the cloud...
-
-CREATE_IN_PROGRESS AuthRole         AWS::IAM::Role  Sun Jan 31 2021 15:24:02 GMT+0200 (Israel Standard Time) Resource creation Initiated
-CREATE_IN_PROGRESS DeploymentBucket AWS::S3::Bucket Sun Jan 31 2021 15:24:02 GMT+0200 (Israel Standard Time) Resource creation Initiated
-- Initializing project in the cloud...
-
-CREATE_COMPLETE AuthRole   AWS::IAM::Role Sun Jan 31 2021 15:24:15 GMT+0200 (Israel Standard Time)
-CREATE_COMPLETE UnauthRole AWS::IAM::Role Sun Jan 31 2021 15:24:13 GMT+0200 (Israel Standard Time)
-- Initializing project in the cloud...
-
-CREATE_COMPLETE amplify-awsamplifyworkshop-dev-152352 AWS::CloudFormation::Stack Sun Jan 31 2021 15:24:25 GMT+0200 (Israel Standard Time)
-CREATE_COMPLETE DeploymentBucket                      AWS::S3::Bucket            Sun Jan 31 2021 15:24:23 GMT+0200 (Israel Standard Time)
-√ Successfully created initial AWS cloud resources for deployments.
-√ Initialized provider successfully.
-Initialized your environment successfully.
-
-Your project has been successfully initialized and connected to the cloud!
-
-Some next steps:
-"amplify status" will show you what you've added already and if it's locally configured or deployed
-"amplify add <category>" will allow you to add features like user login or a backend API
-"amplify push" will build all your local backend resources and provision it in the cloud
-"amplify console" to open the Amplify Console and view your project status
-"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
-
-Pro tip:
-Try "amplify add api" to create a backend API and then "amplify publish" to deploy everything
-````
+![amplify-create](amplify-create-project.png)
 
 Once project created,
 we can notice that we have new folder under our root directory called _amplify_
@@ -90,7 +34,7 @@ _This file will update each feature we will add to the project_
 
 Install aws-amplify library
 ````
-npm i aws-amplify
+$ npm i aws-amplify
 ````
 Import aws-exports configuration and init Amplify
 

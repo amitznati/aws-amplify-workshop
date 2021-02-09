@@ -7,22 +7,7 @@ amplify add auth
 ````
 Select _Default configuration_ and _Username_ for sign in method
 
-```
-amplify add auth
-Using service: Cognito, provided by: awscloudformation
-
- The current configured provider is Amazon Cognito.
-
- Do you want to use the default authentication and security configuration? Default configuration
- Warning: you will not be able to edit these selections.
- How do you want users to be able to sign in? Username
- Do you want to configure advanced settings? No, I am done.
-Successfully added auth resource awsamplifyworkshopc4bf374f locally
-
-Some next steps:
-"amplify push" will build all your local backend resources and provision it in the cloud
-"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
-```
+![auth-add](auth-add.png)
 
 Deploy the change
 ```
@@ -83,23 +68,7 @@ Update the API authentication settings
 amplify api update
 ````
 Keep existing settings (service _GraphQL_, auth type _API key_), select _Yes_ for adding additional auth type and select _Amazon Cognito User Pool_
-````
-amplify api update
-? Please select from one of the below mentioned services: GraphQL
-? Select from the options below Update auth settings
-? Choose the default authorization type for the API API key
-? Enter a description for the API key: public
-? After how many days from now the API key should expire (1-365): 365
-? Configure additional auth types? Yes
-? Choose the additional authorization types you want to configure for the API Amazon Cognito User Pool
-Cognito UserPool configuration
-Use a Cognito user pool configured as a part of this project.
-
-GraphQL schema compiled successfully.
-
-Edit your schema at C:\Users\amitz\Documents\GitHub\aws-amplify-workshop\amplify\backend\api\awsamplifyworkshop\schema.graphql or place .graphql files in a directory at C:\Users\amitz\Documents\GitHub\aws-amplify-workshop\amplify\backend\api\awsamplifyworkshop\schema
-Successfully updated resource
-````
+![api-update](api-update.png)
 
 
 Enhance the Post model schema with auth configuration as so:

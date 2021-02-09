@@ -6,26 +6,8 @@ AWS Amplify Storage module provides a simple mechanism for managing user content
 ````
 amplify add storage
 ````
-````
-λ amplify add storage
-Scanning for plugins...
-Plugin scan successful
-? Please select from one of the below mentioned services: Content (Images, audio, video, etc.)
-? Please provide a friendly name for your resource that will be used to label this category in the project: awsworkshopresource
-? Please provide bucket name: awsamplifyworkshopxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-? Who should have access: Auth and guest users
-? What kind of access do you want for Authenticated users? create/update, read, delete
-? What kind of access do you want for Guest users? read
-? Do you want to add a Lambda Trigger for your S3 Bucket? No
-Auth configuration is required to allow unauthenticated users, but it is not configured properly.
-Successfully updated auth resource locally.
-Successfully added resource awsworkshopresource locally
 
-If a user is part of a user pool group, run "amplify update storage" to enable IAM group policies for CRUD operations
-Some next steps:
-"amplify push" builds all of your local backend resources and provisions them in the cloud
-"amplify publish" builds all of your local backend and front-end resources (if you added hosting category) and provisions them in the cloud
-````
+![add-storage](add-storage.png)
 
 Add postImage field to Post model
 ````graphql
